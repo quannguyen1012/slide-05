@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>tạo form giới thiệu</title>
+</head>
+<body>
+  <form>
+    <h2>Dăng ký học viên</h2>
+    <label>Họ va tên:</label>
+      <input  placeholder="nhập tên" type="text"><br><br>
+      <label>ngày sinh:</label>
+      <input placeholder="nhập ngày sinh" type="text">
+
+      <br><br><label>giới tính:</label>
+    <input type="radio" name="giới tính" value="nam">nam
+      <input type="radio" name="giới tính" value="nữ">nữ<br><br>
+    <label>địa chỉ: </label>
+          <textarea rows="4" cols="50" style="float: inherit">
+           viết địa chỉ vào đây
+          </textarea>
+
+      <br><br>
+      <label>lớp:</label>
+      <select>
+          <option value="chọn lớp">chọn lớp</option>
+          <option value="lớp A">lớp A</option>
+          <option value="lớp B">lớp B</option>
+          <option value="lớp C">lớp C</option>
+      </select><br><br>
+      <label>Email:</label>
+      <input placeholder="nhập email" type="text"name="email" id="email"><br><br>
+      <label>phone:</label>
+      <input placeholder="nhập số" type="number"name="phone" id="phone"><br><br>
+      <input type="submit" value="đăng ký">
+      <input type="submit" value="đăng nhập">
+  </form>
+
+</body>
+</html>

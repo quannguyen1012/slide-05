@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông tin khách hàng</title>
+</head>
+
+<style>
+    table{
+        width: 50%;
+        border-collapse: collapse;
+    }
+    td, th {
+        padding: 20px;
+        border: 1px solid black;
+    }
+    h2,h4{
+        margin-top: 20px;
+        margin-bottom: 1px;
+
+    }
+    select{
+        padding-top: 1px;
+    }
+
+
+</style>
+
+<body>
+<form>
+    <h2>Market resrearch survey</h2>
+    <h5>Please take a few moments to complete this satisfaction survey.</h5>
+
+    <p><strong>what is your age range? </strong><br>
+    <select>
+        <option value="10-15">10-15</option>
+        <option value="15-20">15-20</option>
+        <option value="20-25">20-25</option>
+        <option value="25-30">25-30</option>
+        <option value=">30"> >30</option>
+    </select>
+    </p>
+    <h4>what is your yearly income range?</h4>
+    <select>
+        <option value="0-2500$">0-2500$</option>
+        <option value="2500-5000$">2500-5000</option>
+        <option value="5000-7500$">5000-7500</option>
+        <option value="7500-10000$">7500-10000</option>
+        <option value=">10000$"> >10000</option >
+    </select>
+    <h4>Gender Identity</h4>
+    <input type="radio" name="giới tính" value="male">male<br>
+    <input type="radio" name="giới tính" value="female">famale<br>
+    <input type="radio" name="giới tính" value="nonbinary">nonbinary<br>
+    <input type="radio" name="giới tính" value="other">other<br>
+    <input placeholder="nhập ky tự" type="text" maxlength="100">
+    <p>maximun of 100 characters</p>
+
+
+    <h4>Which of the following products have your purchased in the last 2 months. Please check all that apply.</h4>
+    <input type="checkbox" name="vehicle1" value="product 1"> product 1<br>
+    <input type="checkbox" name="vehicle2" value="product 2"> product 2<br>
+    <input type="checkbox" name="vehicle3" value="product 3"> product 3<br>
+
+    <h4>How often would you use our new product?
+    </h4>
+    <input type="radio" name="thời gian" value="Daily">Daily<br>
+    <input type="radio" name="thời gian" value="weekly">weekly<br>
+    <input type="radio" name="thời gian" value="Monthly">Monthly<br>
+
+    <h4>What would you pay for the new product?</h4>
+    <label>$</label>
+    <input placeholder="nhập đô" type="number" name="Đô" id="Đô">.
+    <input placeholder="nhâp cents" type="number" name="cents" id="cents">
+
+    <h4>what wourld you pay for the new product</h4>
+    <textarea rows="4" cols="100">
+        nhập những sản phẩm mới bạn muốn xem
+    </textarea>
+    <p>Please rate your lavel of agreement with the following statememt</p>
+    <table>
+        <tr>
+            <th></th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Agree</th>
+            <th>Strongly Agree</th>
+        </tr>
+        <tr>
+            <td>Our products are pciced fairly.</td>
+            <td><input type="checkbox" name="vehicle" value="1">1</td>
+            <td><input type="checkbox" name="vehicle2" value="2">2</td>
+            <td><input type="checkbox" name="vehicle3" value="3">3</td>
+            <td><input type="checkbox" name="vehicle4" value="4">4</td>
+
+        </tr>
+        <tr>
+            <td>our products are high qua.</td>
+            <td><input type="checkbox" name="vehicle" value="1">1</td>
+            <td><input type="checkbox" name="vehicle2" value="2">2</td>
+            <td><input type="checkbox" name="vehicle3" value="3">3</td>
+            <td><input type="checkbox" name="vehicle4" value="4">4</td>
+        </tr>
+        <tr>
+            <td>you would recommend our product to a friend or coworker.</td>
+            <td><input type="checkbox" name="vehicle" value="1">1</td>
+            <td><input type="checkbox" name="vehicle2" value="2">2</td>
+            <td><input type="checkbox" name="vehicle3" value="3">3</td>
+            <td><input type="checkbox" name="vehicle4" value="4">4</td>
+        </tr>
+
+    </table>
+    <br>
+    <input type="submit" value="sumbit">
+<form>
+
+</body>
+</html>
